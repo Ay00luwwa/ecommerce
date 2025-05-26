@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth/core": "^0.38.0",
+    "@auth/drizzle-adapter": "^1.9.1",
     "@auth/prisma-adapter": "^2.8.0",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "^1.2.2",
@@ -45,12 +46,15 @@
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
     "date-fns": "4.1.0",
+    "drizzle-orm": "^0.43.1",
     "embla-carousel-react": "8.5.1",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
     "next": "15.2.4",
-    "next-auth": "^4.24.11",
+    "next-auth": "^5.0.0-beta.28",
     "next-themes": "^0.4.4",
+    "postgres": "^3.4.7",
+    "postgres-js": "^0.1.0",
     "react": "^19",
     "react-day-picker": "8.10.1",
     "react-dom": "^19",
@@ -61,7 +65,7 @@
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
-    "zod": "^3.24.3"
+    "zod": "^3.25.28"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",

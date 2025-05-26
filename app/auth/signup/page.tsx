@@ -23,13 +23,12 @@ export default function SignUpPage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsLoading(true)
-
-    // Simulate registration
+    // Simulate authentication
     setTimeout(() => {
       setIsLoading(false)
       toast({
-        title: "Account created!",
-        description: "You have successfully signed up.",
+        title: "Success!",
+        description: "You have been signed in.",
         duration: 3000,
       })
       router.push("/auth/signin")
